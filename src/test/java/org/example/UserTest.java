@@ -13,9 +13,22 @@ class UserTest {
         User user = new User();
 
         // when
-        user.initPassword();
+        user.initPassword(new CorrectFixedPasswordGenerator());
 
         // then
         assertThat(user.getPassword()).isNotNull();
+    }
+
+    @DisplayName("비밀번호가 요구사항에 맞지 않아 초기화가 실패한다.")
+    @Test
+    void wrongPasswordTest() {
+        // given
+        User user = new User();
+
+        // when
+        user.initPassword(new WrongFixedPasswordGenerator());
+
+        // then
+        assertThat(user.getPassword()).isNull();
     }
 }
