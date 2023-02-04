@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="add test 1">
+    <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="add calculater test -">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/calculator/CalculatorTest.java" afterDir="false" />
@@ -73,7 +73,22 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.subtractionTest">
+  <component name="RunManager" selected="JUnit.CalculatorTest.calculateTest (1)">
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.calculator" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest.addtionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
@@ -85,6 +100,38 @@
       <option name="PACKAGE_NAME" value="org.example.calculator" />
       <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
       <option name="METHOD_NAME" value="addtionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.calculateTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.calculator" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="calculateTest(int,java.lang.String,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.calculateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.calculator" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="calculateTest(int,java.lang.String,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,60 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UserTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.passwordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UserTest" />
-      <option name="METHOD_NAME" value="passwordTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.wrongPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UserTest" />
-      <option name="METHOD_NAME" value="wrongPasswordTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.calculateTest (1)" />
+        <item itemvalue="JUnit.CalculatorTest.calculateTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.subtractionTest" />
         <item itemvalue="JUnit.CalculatorTest.addtionTest" />
-        <item itemvalue="JUnit.UserTest.wrongPasswordTest" />
-        <item itemvalue="JUnit.UserTest.passwordTest" />
-        <item itemvalue="JUnit.UserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,7 @@
       <workItem from="1674607331239" duration="525000" />
       <workItem from="1674607861961" duration="114000" />
       <workItem from="1674607981139" duration="157000" />
-      <workItem from="1674608141841" duration="3632000" />
+      <workItem from="1674608141841" duration="8442000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674197691947</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675478920372</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add calculater test -">
+      <created>1675480400655</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675480400655</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +264,7 @@
     <MESSAGE value="add hard test" />
     <MESSAGE value="add test 테스트 하기 쉬운 코드는 낮은 결합도" />
     <MESSAGE value="add test 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test 1" />
+    <MESSAGE value="add calculater test -" />
+    <option name="LAST_COMMIT_MESSAGE" value="add calculater test -" />
   </component>
 </project>
