@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="refactoring calculate by interface">
+    <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="refactoring calculate by zero test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/PositiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/calculator/PositiveNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/AdditionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/AdditionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/DivisionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/DivisionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/MultiplicationOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/MultiplicationOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/NewArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/NewArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/SubtractionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/SubtractionOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/calculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -58,7 +69,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -74,7 +85,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.calculateExceptionTest">
+  <component name="RunManager" selected="JUnit.PositiveNumberTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
@@ -116,29 +127,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.calculator" />
       <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="calculateTest(int,java.lang.String,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.calculateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
       <option name="METHOD_NAME" value="calculateTest(int,java.lang.String,int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.subtractionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +142,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="subtractionTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculator.PositiveNumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveNumberTest.creatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.calculator" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculator.PositiveNumberTest" />
+      <option name="METHOD_NAME" value="creatTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.calculateExceptionTest" />
+        <item itemvalue="JUnit.PositiveNumberTest" />
+        <item itemvalue="JUnit.PositiveNumberTest.creatTest" />
         <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.calculateExceptionTest" />
         <item itemvalue="JUnit.CalculatorTest.calculateTest (1)" />
-        <item itemvalue="JUnit.CalculatorTest.calculateTest" />
-        <item itemvalue="JUnit.CalculatorTest.subtractionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +189,7 @@
       <workItem from="1674607331239" duration="525000" />
       <workItem from="1674607861961" duration="114000" />
       <workItem from="1674607981139" duration="157000" />
-      <workItem from="1674608141841" duration="13453000" />
+      <workItem from="1674608141841" duration="15561000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674197691947</created>
@@ -258,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675719523191</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactoring calculate by zero test">
+      <created>1675719743582</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675719743582</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +315,11 @@
     <MESSAGE value="add calculater test 4 all" />
     <MESSAGE value="refactoring calculate by enum" />
     <MESSAGE value="refactoring calculate by interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring calculate by interface" />
+    <MESSAGE value="refactoring calculate by zero test" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring calculate by zero test" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
