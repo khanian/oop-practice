@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="modify test logic">
+    <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="modify 주석">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/order/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/order/CookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/order/CustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/grade/GradeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/grade/GradeCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/grade/GradeCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/grade/GradeCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d29324e4-dbfe-4a96-96d6-6b8e607b7194" />
+        <option name="url" value="https://github.com/khanian/oop-practice.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,6 +81,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.order" />
       <recent name="org.example.grade" />
       <recent name="org.example.calculator" />
       <recent name="org.example" />
@@ -181,7 +196,7 @@
       <workItem from="1674607331239" duration="525000" />
       <workItem from="1674607861961" duration="114000" />
       <workItem from="1674607981139" duration="157000" />
-      <workItem from="1674608141841" duration="22873000" />
+      <workItem from="1674608141841" duration="24177000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674197691947</created>
@@ -351,7 +366,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675798478162</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="modify 주석">
+      <created>1675798703860</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675798703860</updated>
+    </task>
+    <task id="LOCAL-00026" summary="modify 주석">
+      <created>1675798756164</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675798756164</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +430,8 @@
     <MESSAGE value="refactoring to use 일급 컬렉션" />
     <MESSAGE value="modify to use 일급 컬렉션 주석" />
     <MESSAGE value="modify test logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify test logic" />
+    <MESSAGE value="modify 주석" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify 주석" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
