@@ -4,8 +4,6 @@ import java.util.List;
 
 public class GradeCalculator {
     private final Courses courses;
-    // move to Courses class
-    //private final List<Course> courses;
 
     public GradeCalculator(List<Course> courses) {
         this.courses = new Courses(courses);
