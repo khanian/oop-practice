@@ -16,8 +16,8 @@ public class GradeCalculator {
     /**
      * 핵심 포인트
      */
-    // 이수한 과목을 전달하여 평균학점 계산 요청 --> 학점계산기 --> (학점수*교과목 평점)의 합계 --> 과목(코스)
-    //                                            --> 수강신청 총학점 수        --> 과목(코스)
+    // 이수한 과목을 전달하여 평균학점 계산 요청 --> 학점계산기 --> (학점수*교과목 평점)의 합계 --> 과목(코스) 일급 컬렉션
+    //                                            --> 수강신청 총학점 수        --> 과목(코스) 일급 컬렉션
     public double calculateGrade() {
         // (학점수×교과목 평점)의 합계
         double totalMultipliedCreditAndCourseGrade = courses.multiplyCreditAndCourseGrade();
