@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="modify move to calculate Course credit * grade">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/grade/Courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/grade/GradeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/grade/GradeCalculator.java" afterDir="false" />
+    <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="modify to use 일급 컬렉션">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/grade/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/grade/Courses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +179,7 @@
       <workItem from="1674607331239" duration="525000" />
       <workItem from="1674607861961" duration="114000" />
       <workItem from="1674607981139" duration="157000" />
-      <workItem from="1674608141841" duration="22065000" />
+      <workItem from="1674608141841" duration="22387000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674197691947</created>
@@ -323,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675796706108</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="modify to use 일급 컬렉션">
+      <created>1675797905086</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1675797905086</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +374,8 @@
     <MESSAGE value="add GradeCalculator first pass grade calculate test" />
     <MESSAGE value="modify gitignore" />
     <MESSAGE value="modify move to calculate Course credit * grade" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify move to calculate Course credit * grade" />
+    <MESSAGE value="modify to use 일급 컬렉션" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify to use 일급 컬렉션" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
