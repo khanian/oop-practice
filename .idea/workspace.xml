@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="add cook order makeCook test" />
+    <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="add choose order manu test">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +91,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CookingTest.makeCookTest">
+  <component name="RunManager" selected="JUnit.MenuTest.chooseTest">
     <configuration name="CookTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
@@ -117,21 +120,6 @@
       <option name="MAIN_CLASS_NAME" value="org.example.order.CookingTest" />
       <option name="METHOD_NAME" value="makeCookTest" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.grade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.grade" />
-      <option name="MAIN_CLASS_NAME" value="org.example.grade.CourseTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,13 +156,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MenuTest.chooseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.order" />
+      <option name="MAIN_CLASS_NAME" value="org.example.order.MenuTest" />
+      <option name="METHOD_NAME" value="chooseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MenuTest.chooseTest" />
         <item itemvalue="JUnit.CookingTest.makeCookTest" />
         <item itemvalue="JUnit.CookTest.createTest" />
         <item itemvalue="JUnit.CourseTest.creatTest" />
         <item itemvalue="JUnit.GradeCalculatorTest.calculateGradeTest" />
-        <item itemvalue="JUnit.CourseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +197,7 @@
       <workItem from="1674607331239" duration="525000" />
       <workItem from="1674607861961" duration="114000" />
       <workItem from="1674607981139" duration="157000" />
-      <workItem from="1674608141841" duration="27105000" />
+      <workItem from="1674608141841" duration="28098000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674197691947</created>
@@ -398,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675802257574</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add cook order makeCook test">
+      <created>1676074288314</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1676074288314</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add choose order manu test">
+      <created>1676075166184</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676075166184</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +470,8 @@
     <MESSAGE value="add cook order first" />
     <MESSAGE value="add cook order first test" />
     <MESSAGE value="add cook order makeCook test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cook order makeCook test" />
+    <MESSAGE value="add choose order manu test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add choose order manu test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
