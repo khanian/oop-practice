@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="add choose order manu test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/order/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/order/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/order/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/order/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/order/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/order/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/order/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,23 +92,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MenuTest">
-    <configuration name="CookTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.order" />
-      <option name="MAIN_CLASS_NAME" value="org.example.order.CookTest" />
-      <option name="METHOD_NAME" value="createTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CustomerTest.orderTest">
     <configuration name="CookingTest.makeCookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
@@ -120,6 +104,22 @@
       <option name="PACKAGE_NAME" value="org.example.order" />
       <option name="MAIN_CLASS_NAME" value="org.example.order.CookingTest" />
       <option name="METHOD_NAME" value="makeCookTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest.orderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.order" />
+      <option name="MAIN_CLASS_NAME" value="org.example.order.CustomerTest" />
+      <option name="METHOD_NAME" value="orderTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest.orderTest" />
         <item itemvalue="JUnit.MenuTest" />
         <item itemvalue="JUnit.MenuTest.chooseTest2" />
         <item itemvalue="JUnit.MenuTest.chooseTest" />
         <item itemvalue="JUnit.CookingTest.makeCookTest" />
-        <item itemvalue="JUnit.CookTest.createTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +197,7 @@
       <workItem from="1674607331239" duration="525000" />
       <workItem from="1674607861961" duration="114000" />
       <workItem from="1674607981139" duration="157000" />
-      <workItem from="1674608141841" duration="28338000" />
+      <workItem from="1674608141841" duration="30129000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674197691947</created>
@@ -423,7 +423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676075259510</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add choose order manu test">
+      <created>1676075503873</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676075503873</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add choose order manu test">
+      <created>1676075733405</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1676075733405</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
