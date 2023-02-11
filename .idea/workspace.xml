@@ -92,7 +92,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MenuTest.chooseTest">
+  <component name="RunManager" selected="JUnit.MenuTest">
     <configuration name="CookTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
@@ -125,34 +125,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseTest.creatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.grade.*" />
+          <option name="PATTERN" value="org.example.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.grade" />
-      <option name="MAIN_CLASS_NAME" value="org.example.grade.CourseTest" />
-      <option name="METHOD_NAME" value="creatTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GradeCalculatorTest.calculateGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.grade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.grade" />
-      <option name="MAIN_CLASS_NAME" value="org.example.grade.GradeCalculatorTest" />
-      <option name="METHOD_NAME" value="calculateGradeTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.example.order" />
+      <option name="MAIN_CLASS_NAME" value="org.example.order.MenuTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,13 +156,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MenuTest.chooseTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.order" />
+      <option name="MAIN_CLASS_NAME" value="org.example.order.MenuTest" />
+      <option name="METHOD_NAME" value="chooseTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MenuTest" />
+        <item itemvalue="JUnit.MenuTest.chooseTest2" />
         <item itemvalue="JUnit.MenuTest.chooseTest" />
         <item itemvalue="JUnit.CookingTest.makeCookTest" />
         <item itemvalue="JUnit.CookTest.createTest" />
-        <item itemvalue="JUnit.CourseTest.creatTest" />
-        <item itemvalue="JUnit.GradeCalculatorTest.calculateGradeTest" />
       </list>
     </recent_temporary>
   </component>
