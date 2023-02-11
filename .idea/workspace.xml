@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ab1ef98-e5a9-4213-a512-1d21e36c869c" name="Changes" comment="add choose order manu test">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/order/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/order/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/order/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/order/MenuItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +198,7 @@
       <workItem from="1674607331239" duration="525000" />
       <workItem from="1674607861961" duration="114000" />
       <workItem from="1674607981139" duration="157000" />
-      <workItem from="1674608141841" duration="28098000" />
+      <workItem from="1674608141841" duration="28338000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674197691947</created>
@@ -416,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676075166184</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add choose order manu test">
+      <created>1676075259510</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676075259510</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
